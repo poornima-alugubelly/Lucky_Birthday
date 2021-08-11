@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+:root {
+	--primary-dark: rgba(0, 0, 0, 0.904);
+	--primary-green: rgb(56, 14, 170);
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	min-height: 100%;
+	margin-bottom: 1%;
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Style Script", cursive;
+}
+input,
+label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+input {
+	width: 100%;
+}
+
+.privacy-notice {
+	padding: 0.3rem;
+	width: 100%;
+	border: 0.15rem solid red;
+	margin-bottom: 1rem;
+}
+
+.image {
+	width: 90%;
+}
+
+.list-non-bullet {
+	list-style: none;
+	padding-inline-start: 0px;
+	padding-right: 1rem;
+}
+
+.list-item-inline {
+	display: inline;
+	padding: 0rem 0.5rem;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+	border-radius: 1em 0em 1em 0em;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	margin-top: 16rem;
+	height: 15%;
+	width: 100%;
+}
+
+.footer-header {
+	font-weight: bold;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding-left: 1rem;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+#check {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	padding: 0.3rem;
+	width: 60%;
+	margin-top: 1rem;
+}
